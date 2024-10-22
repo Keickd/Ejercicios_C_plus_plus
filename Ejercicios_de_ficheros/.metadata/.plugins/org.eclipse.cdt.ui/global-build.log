@@ -1,0 +1,142 @@
+13:54:10 **** Rebuild of configuration Debug for project Ejercicio_crear_fichero ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio_crear_fichero.o" "..\\src\\Ejercicio_crear_fichero.cpp" 
+g++ -o Ejercicio_crear_fichero.exe "src\\Ejercicio_crear_fichero.o" 
+Info: Nothing to build for Ejercicio_crear_fichero
+Info: Nothing to build for Ejercicio_crear_fichero
+14:31:55 **** Incremental Build of configuration Debug for project Ejercicio_crear_fichero ****
+Info: Internal Builder is used for build
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio_crear_fichero.o" "..\\src\\Ejercicio_crear_fichero.cpp" 
+g++ -o Ejercicio_crear_fichero.exe "src\\Ejercicio_crear_fichero.o" 
+Info: Nothing to build for Ejercicio_crear_fichero
+Info: Nothing to build for Ejercicio_crear_fichero
+14:39:20 **** Rebuild of configuration Debug for project Ejercicio_leer_fichero ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio_leer_fichero.o" "..\\src\\Ejercicio_leer_fichero.cpp" 
+g++ -o Ejercicio_leer_fichero.exe "src\\Ejercicio_leer_fichero.o" 
+Info: Nothing to build for Ejercicio_leer_fichero
+14:47:10 **** Rebuild of configuration Debug for project Ejercicio_append_text ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio_append_text.o" "..\\src\\Ejercicio_append_text.cpp" 
+..\src\Ejercicio_append_text.cpp: In function 'void append()':
+..\src\Ejercicio_append_text.cpp:21:11: error: aggregate 'std::ofstream archivo' has incomplete type and cannot be defined
+  ofstream archivo;
+           ^~~~~~~
+14:47:59 **** Incremental Build of configuration Debug for project Ejercicio_append_text ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio_append_text.o" "..\\src\\Ejercicio_append_text.cpp" 
+..\src\Ejercicio_append_text.cpp: In function 'int main()':
+..\src\Ejercicio_append_text.cpp:16:9: error: expected primary-expression before ';' token
+  append(;)
+         ^
+..\src\Ejercicio_append_text.cpp:16:10: error: expected primary-expression before ')' token
+  append(;)
+          ^
+14:48:34 **** Incremental Build of configuration Debug for project Ejercicio_append_text ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicio_append_text.o" "..\\src\\Ejercicio_append_text.cpp" 
+g++ -o Ejercicio_append_text.exe "src\\Ejercicio_append_text.o" 
+Info: Nothing to build for Ejercicio_append_text
+13:20:56 **** Rebuild of configuration Debug for project Ejercicios_binarios ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicios_binarios.o" "..\\src\\Ejercicios_binarios.cpp" 
+..\src\Ejercicios_binarios.cpp: In function 'int main()':
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  };
+  ^
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+g++ -o Ejercicios_binarios.exe "src\\Ejercicios_binarios.o" 
+Info: Nothing to build for Ejercicios_binarios
+13:21:43 **** Incremental Build of configuration Debug for project Ejercicios_binarios ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicios_binarios.o" "..\\src\\Ejercicios_binarios.cpp" 
+..\src\Ejercicios_binarios.cpp: In function 'int main()':
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  };
+  ^
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+g++ -o Ejercicios_binarios.exe "src\\Ejercicios_binarios.o" 
+13:22:21 **** Incremental Build of configuration Debug for project Ejercicios_binarios ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicios_binarios.o" "..\\src\\Ejercicios_binarios.cpp" 
+..\src\Ejercicios_binarios.cpp: In function 'int main()':
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  };
+  ^
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+g++ -o Ejercicios_binarios.exe "src\\Ejercicios_binarios.o" 
+13:22:36 **** Incremental Build of configuration Debug for project Ejercicios_binarios ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicios_binarios.o" "..\\src\\Ejercicios_binarios.cpp" 
+..\src\Ejercicios_binarios.cpp: In function 'int main()':
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  };
+  ^
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+g++ -o Ejercicios_binarios.exe "src\\Ejercicios_binarios.o" 
+13:23:04 **** Incremental Build of configuration Debug for project Ejercicios_binarios ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicios_binarios.o" "..\\src\\Ejercicios_binarios.cpp" 
+..\src\Ejercicios_binarios.cpp: In function 'int main()':
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  };
+  ^
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+g++ -o Ejercicios_binarios.exe "src\\Ejercicios_binarios.o" 
+13:23:38 **** Incremental Build of configuration Debug for project Ejercicios_binarios ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicios_binarios.o" "..\\src\\Ejercicios_binarios.cpp" 
+..\src\Ejercicios_binarios.cpp: In function 'int main()':
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  };
+  ^
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+g++ -o Ejercicios_binarios.exe "src\\Ejercicios_binarios.o" 
+13:24:10 **** Incremental Build of configuration Debug for project Ejercicios_binarios ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicios_binarios.o" "..\\src\\Ejercicios_binarios.cpp" 
+..\src\Ejercicios_binarios.cpp: In function 'int main()':
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  };
+  ^
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+g++ -o Ejercicios_binarios.exe "src\\Ejercicios_binarios.o" 
+13:24:28 **** Incremental Build of configuration Debug for project Ejercicios_binarios ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicios_binarios.o" "..\\src\\Ejercicios_binarios.cpp" 
+..\src\Ejercicios_binarios.cpp: In function 'int main()':
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  };
+  ^
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+g++ -o Ejercicios_binarios.exe "src\\Ejercicios_binarios.o" 
+18:49:26 **** Incremental Build of configuration Debug for project Ejercicios_binarios ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicios_binarios.o" "..\\src\\Ejercicios_binarios.cpp" 
+..\src\Ejercicios_binarios.cpp: In function 'int main()':
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  };
+  ^
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+g++ -o Ejercicios_binarios.exe "src\\Ejercicios_binarios.o" 
+Info: Nothing to build for Ejercicios_binarios
+19:03:05 **** Incremental Build of configuration Debug for project Ejercicios_binarios ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ejercicios_binarios.o" "..\\src\\Ejercicios_binarios.cpp" 
+..\src\Ejercicios_binarios.cpp: In function 'int main()':
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+  };
+  ^
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+..\src\Ejercicios_binarios.cpp:32:2: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+g++ -o Ejercicios_binarios.exe "src\\Ejercicios_binarios.o" 
+Info: Nothing to build for Ejercicios_binarios

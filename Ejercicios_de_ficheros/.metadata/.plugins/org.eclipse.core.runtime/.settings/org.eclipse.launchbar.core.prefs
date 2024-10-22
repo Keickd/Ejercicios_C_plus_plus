@@ -1,0 +1,13 @@
+LaunchTargetManager/configs/Ejercicio_crear_fichero\ Debug=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Ejercicios_binarios.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Ejercicio_crear_fichero Debug,org.eclipse.launchbar.core.descriptorType.default\:Ejercicio_leer_fichero.exe,org.eclipse.launchbar.core.descriptorType.default\:Ejercicio_append_text.exe,org.eclipse.launchbar.core.descriptorType.default\:Ejercicios_binarios.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Ejercicio_append_text.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Ejercicio_append_text.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Ejercicio_crear_fichero\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Ejercicio_crear_fichero\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Ejercicios_binarios.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Ejercicios_binarios.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

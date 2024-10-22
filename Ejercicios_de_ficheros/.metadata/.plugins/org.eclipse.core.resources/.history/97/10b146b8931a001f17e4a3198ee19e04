@@ -1,0 +1,24 @@
+//============================================================================
+// Name        : Ejercicio_leer_fichero.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+void leer();
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}
+
+void leer(){
+	ifstream archivo;
+
+	archivo.open("prueba.txt", ios::in);
+}
